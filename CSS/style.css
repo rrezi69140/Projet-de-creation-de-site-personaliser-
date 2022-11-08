@@ -47,3 +47,37 @@ text-align: center;
 color: darkgreen;
 font-size: 3em;
 }
+
+.Infographie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    padding: 2em;
+}
+
+h2{
+    font-family: "FontsFree-Net-WorkSans-ExtraLight" ;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50em;
+    align-content: center;
+    gap: 3em;
+    
+}
+
+.Millieuxinfographie{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
