@@ -1,0 +1,21 @@
+.Logo{
+    height: 5em;
+}
+.ImageVoletNavigation{
+    height: 3em;
+}
+
+.HautPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.VoletNavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
