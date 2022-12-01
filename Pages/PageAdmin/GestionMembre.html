@@ -44,23 +44,40 @@
                  
             <h1>Outil de Creation et des gestions des membres</h1>
            
-            <div style="display: flex;justify-content: flex-start;">  
-                <div>
-                
-                
-                    <div class="ConteneurBouton">
-                        <input type="button" class="Bouton" value="Creation d'un nouveau membre" onclick="CreationMembre()">
-                    </div>    
-                
-                    <div class="ConteneurBouton">
-                        <input type="button" class="Bouton" value=" Afficher les membres"  onclick="AfficherMembre()">
+            <div class="ConteneurMillieux">
+                <div class="ConteneurTableau">  
                     
-                    </div>    
+                        <table  >
+                            <tr> 
+                                <th><input type="button" class="Bouton" value="Creation d'un nouveau membre" onclick="CreationMembre()"> </th> 
+                                <td> <input type="button" class="Bouton" value=" Actualiser "  onclick="AfficherMembre()"></td>
+                            </tr>
+                        </table  >
+                    
+                        
+                        <table class="ContourTableau" >
+                            <tr class="ContourTableau"> 
+                                <th class="ContourTableau">Id</th>
+                                <td class="ContourTableau">Prenom</td>
+                            </tr>
+                            
+                            <tr class="ContourTableau"> 
+                                <th  ><div id="ZoneAffichageMembre"> </div></th>
+                                <td ><div id="ZoneAffichageId"></div></td> 
+                            </tr>
+                            
+                        
+                        </table >
+                
+                      
+                
+                      
                 </div>
-
-            <div id="ZoneAffichage" >
-               
-            </div> 
+            </div>
+           
+        
+        
+        
         </div>              
         </main>  
             
