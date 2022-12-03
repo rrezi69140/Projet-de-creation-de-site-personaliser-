@@ -67,9 +67,8 @@ height: 100%;
    background-color: var(--NavBar-item-hovered-color);
 }
 
-.NavBarItem :last-child{
-   /* margin-top: auto; */
-}
+
+
 
 .NavBarLink{
     display: flex;
@@ -270,4 +269,23 @@ caption, th, td {
     border: 2px solid black;
     border-collapse: collapse; 
     border-width: 1px;
+}
+
+
+.BoutonRecherche{
+    border-radius:  40px ;
+    border: solid black;
+    border-width: 1px;
+    background-color: white ;
+    font-family:  "FontsFree-Net-WorkSans-ExtraLight";
+    padding: 4px;
+    color: darkgreen;
+}
+
+
+.ConteneurBoutonRecherche{
+    position: fixed;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    float: inline-start;
 }
