@@ -9,13 +9,17 @@
     </head>
     
     <body>
-        
+        <div class="ConteneurBoutonRecherche">
+            <input id="BareRecherche" type="text"name="search" placeholder="Blog,Apropos,Contact" >
+            <input type="button" value="Rechercher"  onclick="FonctionRechercheAdmin()" class="BoutonRecherche" >
+            </div>
+
         <nav class="NavBar">
             <ul class="NavBarMenu"> 
                 <li class="NavBarItem">
                     <a href="indexAdmin.html" class="NavBarLink">
                         <i class="fa-sharp fa-solid fa-house NavBarIcon"></i>
-                        <span class="NavBarTitle  "> Aceuile </span>
+                        <span class="NavBarTitle  "> Accueil </span>
                     </a>
                 </li >
 
@@ -31,6 +35,17 @@
                         <i class="fa-sharp fa-solid fa-address-card NavBarIcon"></i>
                         <span class="NavBarTitle">Contact</span>
                     </a>
+                </li >
+                <li class="NavBarItem">
+                    <a href="Calculateur.html" class="NavBarLink">
+                        <i class="fa-sharp fa-solid fa-calculator NavBarIcon"></i>
+                        <span class="NavBarTitle">Calculateur</span>
+                    </a>
+                </li >
+
+                <li class="NavBarItem">
+                    <i class="fa-sharp fa-solid fa-right-to-bracket NavBarIcon"></i>
+                    <input type="button" value="Déconnexion"  onclick="Deconexion()" class="NavBarTitle Bouton">
                 </li >
             </ul>    
         </nav>
@@ -50,7 +65,7 @@
                     
                         <table  >
                             <tr> 
-                                <th><input type="button" class="Bouton" value="Creation d'un nouveau membre" onclick="CreationMembre()"> </th> 
+                                <td><input type="button" class="Bouton" value="Creation d'un nouveau membre" onclick="CreationMembre()"> </td> 
                                 <td> <input type="button" class="Bouton" value=" Actualiser "  onclick="AfficherMembre()"></td>
                             </tr>
                         </table  >
@@ -59,9 +74,9 @@
                         <table class="ContourTableau" >
                             <tr class="ContourTableau"> 
                                 <th class="ContourTableau">Id</th>
-                                <td class="ContourTableau">Prenom</td>
+                                <th class="ContourTableau">Prénom</th>
                                 <th class="ContourTableau">Nom</th>
-                                <td class="ContourTableau">Majeur</td>
+                                <th class="ContourTableau">Majeur</th>
                             </tr>
                             
                            
